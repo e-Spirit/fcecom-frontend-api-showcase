@@ -1,0 +1,22 @@
+{
+  "name": "fcecom-frontend-api-showcase",
+  "version": "0.0.1",
+  "description": "Examples on how to implement certain hooks within FCECOM Frontend API.",
+  "scripts": {
+    "hooks:previewInitialized": "ts-node-esm src/hooks/preview-initialized.ts",
+    "preinstall": "(cd ../client && npm run build) && npx install-local ../client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-Spirit/fcecom-frontend-api-showcase.git"
+  },
+  "author": "Crownpeak Technology GmbH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-Spirit/fcecom-frontend-api-showcase/issues"
+  },
+  "homepage": "https://github.com/e-Spirit/fcecom-frontend-api-showcase#readme",
+  "dependencies": {
+    "fcecom-frontend-api-client": "file:../client"
+  }
+}
