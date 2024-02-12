@@ -1,7 +1,7 @@
-## [0.23.0](https://github.com/e-Spirit/fcecom-frontend-api-showcase/compare/v0.22.0...v0.23.0) (2024-01-30)
+## [0.24.0](https://github.com/e-Spirit/fcecom-frontend-api-showcase/compare/v0.23.0...v0.24.0) (2024-02-12)
 
 ### Changes
-* Updated version number to be consistent with client package.
+* Updated version number to be consistent with server package.
 
 ## [0.22.0](https://github.com/e-Spirit/fcecom-frontend-api-showcase/compare/v0.20.0...v0.22.0) (2024-01-22)
 
