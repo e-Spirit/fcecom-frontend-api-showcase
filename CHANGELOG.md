@@ -1,3 +1,8 @@
+## [1.0.1](https://github.com/e-Spirit/fcecom-frontend-api-showcase/compare/v1.0.0...v1.0.1) (2024-06-05)
+
+### Changes
+* Updated version number to be consistent with server and client package.
+
 ## [1.0.0](https://github.com/e-Spirit/fcecom-frontend-api-showcase/compare/v0.25.0...v1.0.0) (2024-05-17)
 
 ### Changes
