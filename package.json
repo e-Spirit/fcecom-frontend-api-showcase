@@ -1,10 +1,10 @@
 {
   "name": "fcecom-frontend-api-showcase",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Examples on how to implement certain hooks within FCECOM Frontend API.",
   "scripts": {
     "hooks:previewInitialized": "ts-node-esm src/hooks/preview-initialized.ts",
-    "postinstall": "(cd ../client && npm run build) && npx install-local ../client",
+    "postinstall": "npm run build --workspace ../client && npx install-local ../client",
     "format": "prettier --write \"src/**/*.{ts,js,json}\"",
     "format:check": "prettier --config .prettierrc --check \"src/**/*.{ts,js,json}\"",
     "lint": "eslint"
