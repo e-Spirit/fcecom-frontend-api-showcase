@@ -1,4 +1,4 @@
-`## [1.3.1](https://github.com/e-Spirit/fcecom-frontend-api-showcase/compare/v1.3.0...v1.3.1) (2024-12-20)
+## [1.3.1](https://github.com/e-Spirit/fcecom-frontend-api-showcase/compare/v1.3.0...v1.3.1) (2024-12-20)
 
 ### Changes
 * Updated version number to be consistent with server and client package.
