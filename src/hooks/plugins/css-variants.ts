@@ -35,7 +35,7 @@ ecomApi.addHook(EcomHooks.PREVIEW_INITIALIZED, async ({ TPP_BROKER }) => {
     disable($node);
     await callCssVariantsScript(`save`, $node, status);
     const previewId = $node.closest(`[data-preview-id]:not([data-preview-id^="#"])`).dataset.previewId;
-    TPP_BROKER.triggerChange(previewId);
+    TPP_BROKER.triggerChange(previewId, {});
     enable($node);
   };
 
@@ -99,6 +99,7 @@ ecomApi.addHook(EcomHooks.PREVIEW_INITIALIZED, async ({ TPP_BROKER }) => {
       execute: async (scope, item) => {
         const node = scope.$node.matches(`[data-variant-editor-name]`) ? scope.$node : scope.$node.querySelector(`[data-variant-editor-name]`);
         if (item && node[_variant] != item.value) {
+          // @ts-ignore
           node.dataset.variant = node[_variant] = item.value;
           await saveChanges(scope);
         }
